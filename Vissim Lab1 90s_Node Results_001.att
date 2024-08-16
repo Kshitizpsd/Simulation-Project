@@ -1,0 +1,122 @@
+﻿$VISION
+* File:		D:\Vissim Lab.results\VLab 90s\Vissim Lab1 90s.inpx
+* Comment:	
+* Date:		11-03-2024 12:49:57
+* Application:	PTV Vissim 2024.00-04 [272727]
+* 
+* Table: Node Results
+* 
+* SIMRUN: SimRun, Simulation run (Number of simulation run)
+* TIMEINT: TimeInt, Time interval (Time interval)
+* MOVEMENT: Movement, Movement (Movement)
+* QLEN: QLen, Queue length (Average queue length: In each time step, the current queue length is measured and the arithmetic mean is thus calculated per time interval.) [m]
+* QLENMAX: QLenMax, Queue length (maximum) (Queue length (maximum): In each time step, the current queue length is measured and the maximum is thus calculated per time interval.) [m]
+* VEHS(ALL): Vehs(All), Vehicles (All) (Number of vehicles)
+* PERS(ALL): Pers(All), Persons (All) (Number of persons)
+* LOS(ALL): LOS(All), Level of service (All) (Level-of-service (A..F) as computed by the associated LOS scheme)
+* LOSVAL(ALL): LOSVal(All), Level-of-service value (All) (Level-of-service as numerical value (1..6) as computed by the associated LOS scheme. Value 1 corresponds to LOS ‘A’, 6 to LOS ‘F’)
+* VEHDELAY(ALL): VehDelay(All), Vehicle delay (average) (All) (Delay of all vehicles.  The delay of a vehicle in leaving a travel time measurement is obtained by subtracting the theoretical (ideal) travel time from the actual travel time.  The theoretical travel time is the travel time which could be achieved if there were no other vehicles and/or no signal controls or other reasons for stops.  Reduced speed areas are taken into account.  The actual travel time does not include any passenger service times of PT vehicles at line stops and no parking time in real parking lots.  The delay due to braking before a PT stop and/or the subsequent acceleration after a PT stop are part of the delay.) [s]
+* PERSDELAY(ALL): PersDelay(All), Person delay (average) (All) (Delay of all pedestrians in seconds without passenger service times at stops) [s]
+* STOPDELAY(ALL): StopDelay(All), Stopped delay (average) (All) (Stopped delay per vehicle in seconds without stops at PT stops and in parking lots) [s]
+* STOPS(ALL): Stops(All), Stops (All) (Number of vehicle stops per vehicle without stops at PT stops and in parking lots)
+* EMISSIONSCO: EmissionsCO, Emissions CO (Quantity of carbon monoxide [grams])
+* EMISSIONSNOX: EmissionsNOx, Emissions NOx (Quantity of nitrogen oxides [grams])
+* EMISSIONSVOC: EmissionsVOC, Emissions volatile organic compounds (Quantity of volatile organic compounds [grams])
+* FUELCONSUMPTION: FuelConsumption, Fuel consumption (Fuel consumption [US liquid gallon])
+* 
+* SimRun;TimeInt;Movement;QLen;QLenMax;Vehs(All);Pers(All);LOS(All);LOSVal(All);VehDelay(All);PersDelay(All);StopDelay(All);Stops(All);EmissionsCO;EmissionsNOx;EmissionsVOC;FuelConsumption
+* Simulation run;Time interval;Movement;Queue length;Queue length (maximum);Vehicles (All);Persons (All);Level of service (All);Level-of-service value (All);Vehicle delay (average) (All);Person delay (average) (All);Stopped delay (average) (All);Stops (All);Emissions CO;Emissions NOx;Emissions volatile organic compounds;Fuel consumption
+*
+$MOVEMENTEVALUATION:SIMRUN;TIMEINT;MOVEMENT;QLEN;QLENMAX;VEHS(ALL);PERS(ALL);LOS(ALL);LOSVAL(ALL);VEHDELAY(ALL);PERSDELAY(ALL);STOPDELAY(ALL);STOPS(ALL);EMISSIONSCO;EMISSIONSNOX;EMISSIONSVOC;FUELCONSUMPTION
+1;0-60;1-1: North@31.9-4: West@21.7;0.89;6.55;0;0;LOS_A;;;;;;;;;
+1;0-60;1-1: North@31.9-5: East@16.7;0.89;6.55;0;0;LOS_A;;;;;;;;;
+1;0-60;1-1: North@31.9-7: South@13.8;0.89;6.55;1;1;LOS_A;1;6.65;6.65;0.00;0.00;0.310;0.060;0.072;0.004
+1;0-60;1-3: West@20.5-2: North@7.3;3.04;12.85;1;1;LOS_A;1;0.00;0.00;0.00;0.00;0.153;0.030;0.035;0.002
+1;0-60;1-3: West@20.5-5: East@16.7;3.04;12.85;2;2;LOS_A;1;0.00;0.00;0.00;0.00;0.414;0.080;0.096;0.006
+1;0-60;1-3: West@20.5-7: South@13.8;3.04;12.85;0;0;LOS_A;;;;;;;;;
+1;0-60;1-6: East@24.2-2: North@7.3;5.10;18.08;1;1;LOS_B;2;14.95;14.95;5.58;1.00;0.831;0.162;0.193;0.012
+1;0-60;1-6: East@24.2-4: West@21.7;5.10;18.08;5;5;LOS_B;2;15.68;15.68;9.78;0.60;3.580;0.697;0.830;0.051
+1;0-60;1-6: East@24.2-7: South@13.8;5.10;18.08;1;1;LOS_C;3;25.54;25.54;18.64;1.00;0.941;0.183;0.218;0.013
+1;0-60;1-8: South@17.2-2: North@7.3;2.79;7.65;0;0;LOS_A;;;;;;;;;
+1;0-60;1-8: South@17.2-4: West@21.7;2.79;7.65;0;0;LOS_A;;;;;;;;;
+1;0-60;1-8: South@17.2-5: East@16.7;2.79;7.65;0;0;LOS_A;;;;;;;;;
+1;0-60;1;2.95;18.08;11;11;LOS_B;2;11.41;11.41;6.65;0.45;6.180;1.202;1.432;0.088
+1;60-120;1-1: North@31.9-4: West@21.7;8.39;13.28;0;0;LOS_A;;;;;;;;;
+1;60-120;1-1: North@31.9-5: East@16.7;8.39;13.28;0;0;LOS_A;;;;;;;;;
+1;60-120;1-1: North@31.9-7: South@13.8;8.39;13.28;0;0;LOS_A;;;;;;;;;
+1;60-120;1-3: West@20.5-2: North@7.3;6.51;12.04;1;1;LOS_D;4;43.07;43.07;35.52;1.00;1.262;0.246;0.293;0.018
+1;60-120;1-3: West@20.5-5: East@16.7;6.51;12.04;3;3;LOS_D;4;46.00;46.00;36.18;1.00;3.944;0.767;0.914;0.056
+1;60-120;1-3: West@20.5-7: South@13.8;6.51;12.04;1;1;LOS_D;4;43.96;43.96;35.59;1.00;1.234;0.240;0.286;0.018
+1;60-120;1-6: East@24.2-2: North@7.3;8.35;20.94;1;1;LOS_A;1;0.02;0.02;0.00;0.00;0.169;0.033;0.039;0.002
+1;60-120;1-6: East@24.2-4: West@21.7;8.35;20.94;0;0;LOS_A;;;;;;;;;
+1;60-120;1-6: East@24.2-7: South@13.8;8.35;20.94;0;0;LOS_A;;;;;;;;;
+1;60-120;1-8: South@17.2-2: North@7.3;3.73;6.75;0;0;LOS_A;;;;;;;;;
+1;60-120;1-8: South@17.2-4: West@21.7;3.73;6.75;3;3;LOS_C;3;24.76;24.76;18.20;0.67;2.421;0.471;0.561;0.035
+1;60-120;1-8: South@17.2-5: East@16.7;3.73;6.75;0;0;LOS_A;;;;;;;;;
+1;60-120;1;6.74;20.94;9;9;LOS_C;3;33.26;33.26;26.03;0.78;9.059;1.763;2.100;0.130
+1;Total;1-1: North@31.9-4: West@21.7;9.28;19.82;0;0;;;;;;;;;;
+1;Total;1-1: North@31.9-5: East@16.7;9.28;19.82;0;0;;;;;;;;;;
+1;Total;1-1: North@31.9-7: South@13.8;9.28;19.82;1;1;;1;6.65;6.65;0.00;0.00;0.310;0.060;0.072;0.004
+1;Total;1-3: West@20.5-2: North@7.3;9.54;24.89;2;2;;5;43.07;43.07;35.52;1.00;1.415;0.275;0.328;0.020
+1;Total;1-3: West@20.5-5: East@16.7;9.54;24.89;5;5;;5;46.00;46.00;36.18;1.00;4.357;0.848;1.010;0.062
+1;Total;1-3: West@20.5-7: South@13.8;9.54;24.89;1;1;;4;43.96;43.96;35.59;1.00;1.234;0.240;0.286;0.018
+1;Total;1-6: East@24.2-2: North@7.3;13.44;39.02;2;2;;3;14.97;14.97;5.58;1.00;0.999;0.194;0.232;0.014
+1;Total;1-6: East@24.2-4: West@21.7;13.44;39.02;5;5;;2;15.68;15.68;9.78;0.60;3.580;0.697;0.830;0.051
+1;Total;1-6: East@24.2-7: South@13.8;13.44;39.02;1;1;;3;25.54;25.54;18.64;1.00;0.941;0.183;0.218;0.013
+1;Total;1-8: South@17.2-2: North@7.3;6.52;14.40;0;0;;;;;;;;;;
+1;Total;1-8: South@17.2-4: West@21.7;6.52;14.40;3;3;;3;24.76;24.76;18.20;0.67;2.421;0.471;0.561;0.035
+1;Total;1-8: South@17.2-5: East@16.7;6.52;14.40;0;0;;;;;;;;;;
+1;Total;1;9.70;39.02;20;20;;5;44.67;44.67;32.68;1.23;15.239;2.965;3.532;0.218
+1;Average;1-1: North@31.9-4: West@21.7;4.64;9.91;0;0;;;;;;;;;;
+1;Average;1-1: North@31.9-5: East@16.7;4.64;9.91;0;0;;;;;;;;;;
+1;Average;1-1: North@31.9-7: South@13.8;4.64;9.91;1;1;;1;6.65;6.65;0.00;0.00;0.310;0.060;0.072;0.004
+1;Average;1-3: West@20.5-2: North@7.3;4.77;12.45;1;1;;3;21.53;21.53;17.76;0.50;0.708;0.138;0.164;0.010
+1;Average;1-3: West@20.5-5: East@16.7;4.77;12.45;3;3;;3;23.00;23.00;18.09;0.50;2.179;0.424;0.505;0.031
+1;Average;1-3: West@20.5-7: South@13.8;4.77;12.45;1;1;;4;43.96;43.96;35.59;1.00;1.234;0.240;0.286;0.018
+1;Average;1-6: East@24.2-2: North@7.3;6.72;19.51;1;1;;2;7.49;7.49;2.79;0.50;0.500;0.097;0.116;0.007
+1;Average;1-6: East@24.2-4: West@21.7;6.72;19.51;3;3;;2;15.68;15.68;9.78;0.60;3.580;0.697;0.830;0.051
+1;Average;1-6: East@24.2-7: South@13.8;6.72;19.51;1;1;;3;25.54;25.54;18.64;1.00;0.941;0.183;0.218;0.013
+1;Average;1-8: South@17.2-2: North@7.3;3.26;7.20;0;0;;;;;;;;;;
+1;Average;1-8: South@17.2-4: West@21.7;3.26;7.20;2;2;;3;24.76;24.76;18.20;0.67;2.421;0.471;0.561;0.035
+1;Average;1-8: South@17.2-5: East@16.7;3.26;7.20;0;0;;;;;;;;;;
+1;Average;1;4.85;19.51;10;10;;3;22.34;22.34;16.34;0.62;7.620;1.483;1.766;0.109
+1;Standard deviation;1-1: North@31.9-4: West@21.7;5.31;4.76;0;0;;;;;;;;;;
+1;Standard deviation;1-1: North@31.9-5: East@16.7;5.31;4.76;0;0;;;;;;;;;;
+1;Standard deviation;1-1: North@31.9-7: South@13.8;5.31;4.76;1;1;;;;;;;;;;
+1;Standard deviation;1-3: West@20.5-2: North@7.3;2.46;0.58;0;0;;2;30.45;30.45;25.12;0.71;0.785;0.153;0.182;0.011
+1;Standard deviation;1-3: West@20.5-5: East@16.7;2.46;0.58;1;1;;2;32.53;32.53;25.58;0.71;2.496;0.486;0.578;0.036
+1;Standard deviation;1-3: West@20.5-7: South@13.8;2.46;0.58;1;1;;;;;;;;;;
+1;Standard deviation;1-6: East@24.2-2: North@7.3;2.30;2.03;0;0;;1;10.55;10.55;3.95;0.71;0.468;0.091;0.108;0.007
+1;Standard deviation;1-6: East@24.2-4: West@21.7;2.30;2.03;4;4;;;;;;;;;;
+1;Standard deviation;1-6: East@24.2-7: South@13.8;2.30;2.03;1;1;;;;;;;;;;
+1;Standard deviation;1-8: South@17.2-2: North@7.3;0.66;0.64;0;0;;;;;;;;;;
+1;Standard deviation;1-8: South@17.2-4: West@21.7;0.66;0.64;2;2;;;;;;;;;;
+1;Standard deviation;1-8: South@17.2-5: East@16.7;0.66;0.64;0;0;;;;;;;;;;
+1;Standard deviation;1;2.68;2.03;1;1;;1;15.45;15.45;13.70;0.23;2.036;0.396;0.472;0.029
+1;Minimum;1-1: North@31.9-4: West@21.7;0.89;6.55;0;0;;;;;;;;;;
+1;Minimum;1-1: North@31.9-5: East@16.7;0.89;6.55;0;0;;;;;;;;;;
+1;Minimum;1-1: North@31.9-7: South@13.8;0.89;6.55;0;0;;1;6.65;6.65;0.00;0.00;0.310;0.060;0.072;0.004
+1;Minimum;1-3: West@20.5-2: North@7.3;3.04;12.04;1;1;;1;0.00;0.00;0.00;0.00;0.153;0.030;0.035;0.002
+1;Minimum;1-3: West@20.5-5: East@16.7;3.04;12.04;2;2;;1;0.00;0.00;0.00;0.00;0.414;0.080;0.096;0.006
+1;Minimum;1-3: West@20.5-7: South@13.8;3.04;12.04;0;0;;4;43.96;43.96;35.59;1.00;1.234;0.240;0.286;0.018
+1;Minimum;1-6: East@24.2-2: North@7.3;5.10;18.08;1;1;;1;0.02;0.02;0.00;0.00;0.169;0.033;0.039;0.002
+1;Minimum;1-6: East@24.2-4: West@21.7;5.10;18.08;0;0;;2;15.68;15.68;9.78;0.60;3.580;0.697;0.830;0.051
+1;Minimum;1-6: East@24.2-7: South@13.8;5.10;18.08;0;0;;3;25.54;25.54;18.64;1.00;0.941;0.183;0.218;0.013
+1;Minimum;1-8: South@17.2-2: North@7.3;2.79;6.75;0;0;;;;;;;;;;
+1;Minimum;1-8: South@17.2-4: West@21.7;2.79;6.75;0;0;;3;24.76;24.76;18.20;0.67;2.421;0.471;0.561;0.035
+1;Minimum;1-8: South@17.2-5: East@16.7;2.79;6.75;0;0;;;;;;;;;;
+1;Minimum;1;2.95;18.08;9;9;;2;11.41;11.41;6.65;0.45;6.180;1.202;1.432;0.088
+1;Maximum;1-1: North@31.9-4: West@21.7;8.39;13.28;0;0;;;;;;;;;;
+1;Maximum;1-1: North@31.9-5: East@16.7;8.39;13.28;0;0;;;;;;;;;;
+1;Maximum;1-1: North@31.9-7: South@13.8;8.39;13.28;1;1;;1;6.65;6.65;0.00;0.00;0.310;0.060;0.072;0.004
+1;Maximum;1-3: West@20.5-2: North@7.3;6.51;12.85;1;1;;4;43.07;43.07;35.52;1.00;1.262;0.246;0.293;0.018
+1;Maximum;1-3: West@20.5-5: East@16.7;6.51;12.85;3;3;;4;46.00;46.00;36.18;1.00;3.944;0.767;0.914;0.056
+1;Maximum;1-3: West@20.5-7: South@13.8;6.51;12.85;1;1;;4;43.96;43.96;35.59;1.00;1.234;0.240;0.286;0.018
+1;Maximum;1-6: East@24.2-2: North@7.3;8.35;20.94;1;1;;2;14.95;14.95;5.58;1.00;0.831;0.162;0.193;0.012
+1;Maximum;1-6: East@24.2-4: West@21.7;8.35;20.94;5;5;;2;15.68;15.68;9.78;0.60;3.580;0.697;0.830;0.051
+1;Maximum;1-6: East@24.2-7: South@13.8;8.35;20.94;1;1;;3;25.54;25.54;18.64;1.00;0.941;0.183;0.218;0.013
+1;Maximum;1-8: South@17.2-2: North@7.3;3.73;7.65;0;0;;;;;;;;;;
+1;Maximum;1-8: South@17.2-4: West@21.7;3.73;7.65;3;3;;3;24.76;24.76;18.20;0.67;2.421;0.471;0.561;0.035
+1;Maximum;1-8: South@17.2-5: East@16.7;3.73;7.65;0;0;;;;;;;;;;
+1;Maximum;1;6.74;20.94;11;11;;3;33.26;33.26;26.03;0.78;9.059;1.763;2.100;0.130
+
